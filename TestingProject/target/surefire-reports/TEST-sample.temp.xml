@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="sample.temp" time="2.656" tests="17" errors="1" skipped="0" failures="8">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\91932\Desktop\testing\TestingProject\target\test-classes;C:\Users\91932\Desktop\testing\TestingProject\target\classes;C:\Users\91932\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\91932\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\91932\.m2\repository\javax\javaee-web-api\7.0\javaee-web-api-7.0.jar;C:\Users\91932\.m2\repository\net\sourceforge\jwebunit\jwebunit-htmlunit-plugin\3.2\jwebunit-htmlunit-plugin-3.2.jar;C:\Users\91932\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.14\htmlunit-2.14.jar;C:\Users\91932\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\91932\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\91932\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\91932\.m2\repository\org\apache\commons\commons-lang3\3.2.1\commons-lang3-3.2.1.jar;C:\Users\91932\.m2\repository\org\apache\httpcomponents\httpclient\4.3.2\httpclient-4.3.2.jar;C:\Users\91932\.m2\repository\org\apache\httpcomponents\httpcore\4.3.1\httpcore-4.3.1.jar;C:\Users\91932\.m2\repository\org\apache\httpcomponents\httpmime\4.3.2\httpmime-4.3.2.jar;C:\Users\91932\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\91932\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.14\htmlunit-core-js-2.14.jar;C:\Users\91932\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\91932\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\91932\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.20\nekohtml-1.9.20.jar;C:\Users\91932\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.13\cssparser-0.9.13.jar;C:\Users\91932\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\91932\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\91932\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.14.v20131031\jetty-websocket-8.1.14.v20131031.jar;C:\Users\91932\.m2\repository\org\eclipse\jetty\jetty-util\8.1.14.v20131031\jetty-util-8.1.14.v20131031.jar;C:\Users\91932\.m2\repository\org\eclipse\jetty\jetty-io\8.1.14.v20131031\jetty-io-8.1.14.v20131031.jar;C:\Users\91932\.m2\repository\org\eclipse\jetty\jetty-http\8.1.14.v20131031\jetty-http-8.1.14.v20131031.jar;C:\Users\91932\.m2\repository\net\sourceforge\jwebunit\jwebunit-core\3.2\jwebunit-core-3.2.jar;C:\Users\91932\.m2\repository\regexp\regexp\1.3\regexp-1.3.jar;C:\Users\91932\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\91932\.m2\repository\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar;C:\Users\91932\.m2\repository\org\slf4j\jcl-over-slf4j\1.6.6\jcl-over-slf4j-1.6.6.jar;C:\Users\91932\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\91932\AppData\Local\Temp\surefire16816236450071666400\surefirebooter2992088522440347857.jar C:\Users\91932\AppData\Local\Temp\surefire16816236450071666400 2022-08-26T14-31-29_755-jvmRun1 surefire2402992519872047468tmp surefire_016770344076613567939tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="sample.temp"/>
+    <property name="surefire.test.class.path" value="C:\Users\91932\Desktop\testing\TestingProject\target\test-classes;C:\Users\91932\Desktop\testing\TestingProject\target\classes;C:\Users\91932\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\91932\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\91932\.m2\repository\javax\javaee-web-api\7.0\javaee-web-api-7.0.jar;C:\Users\91932\.m2\repository\net\sourceforge\jwebunit\jwebunit-htmlunit-plugin\3.2\jwebunit-htmlunit-plugin-3.2.jar;C:\Users\91932\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.14\htmlunit-2.14.jar;C:\Users\91932\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\91932\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\91932\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\91932\.m2\repository\org\apache\commons\commons-lang3\3.2.1\commons-lang3-3.2.1.jar;C:\Users\91932\.m2\repository\org\apache\httpcomponents\httpclient\4.3.2\httpclient-4.3.2.jar;C:\Users\91932\.m2\repository\org\apache\httpcomponents\httpcore\4.3.1\httpcore-4.3.1.jar;C:\Users\91932\.m2\repository\org\apache\httpcomponents\httpmime\4.3.2\httpmime-4.3.2.jar;C:\Users\91932\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\91932\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.14\htmlunit-core-js-2.14.jar;C:\Users\91932\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\91932\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\91932\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.20\nekohtml-1.9.20.jar;C:\Users\91932\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.13\cssparser-0.9.13.jar;C:\Users\91932\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\91932\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\91932\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.14.v20131031\jetty-websocket-8.1.14.v20131031.jar;C:\Users\91932\.m2\repository\org\eclipse\jetty\jetty-util\8.1.14.v20131031\jetty-util-8.1.14.v20131031.jar;C:\Users\91932\.m2\repository\org\eclipse\jetty\jetty-io\8.1.14.v20131031\jetty-io-8.1.14.v20131031.jar;C:\Users\91932\.m2\repository\org\eclipse\jetty\jetty-http\8.1.14.v20131031\jetty-http-8.1.14.v20131031.jar;C:\Users\91932\.m2\repository\net\sourceforge\jwebunit\jwebunit-core\3.2\jwebunit-core-3.2.jar;C:\Users\91932\.m2\repository\regexp\regexp\1.3\regexp-1.3.jar;C:\Users\91932\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\91932\.m2\repository\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar;C:\Users\91932\.m2\repository\org\slf4j\jcl-over-slf4j\1.6.6\jcl-over-slf4j-1.6.6.jar;C:\Users\91932\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\91932"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\91932\Desktop\testing\TestingProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\91932\AppData\Local\Temp\surefire16816236450071666400\surefirebooter2992088522440347857.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="user.name" value="91932"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-14\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\91932\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\91932\AppData\Local\Temp\"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="user.dir" value="C:\Users\91932\Desktop\testing\TestingProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2019a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\91932\AppData\Local\Microsoft\WindowsApps;C:\Users\91932\flutter-master\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1\bin;;C:\Program Files (x86)\Nmap;C:\Users\91932\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="test10" classname="sample.temp" time="1.797"/>
+  <testcase name="test11" classname="sample.temp" time="0.046"/>
+  <testcase name="test12" classname="sample.temp" time="0.11">
+    <failure message="expected:&lt;[ReStock]&gt; but was:&lt;[Home Page]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[ReStock]> but was:<[Home Page]>
+	at sample.temp.test12(temp.java:293)
+]]></failure>
+  </testcase>
+  <testcase name="test13" classname="sample.temp" time="0.047">
+    <failure message="expected:&lt;[ReStock]&gt; but was:&lt;[Home Page]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[ReStock]> but was:<[Home Page]>
+	at sample.temp.test13(temp.java:316)
+]]></failure>
+  </testcase>
+  <testcase name="test14" classname="sample.temp" time="0.047"/>
+  <testcase name="test15" classname="sample.temp" time="0.046"/>
+  <testcase name="test16" classname="sample.temp" time="0.047"/>
+  <testcase name="test17" classname="sample.temp" time="0.047">
+    <error message="The server return 500 HTTP code." type="net.sourceforge.jwebunit.exception.TestingEngineResponseException"><![CDATA[net.sourceforge.jwebunit.exception.TestingEngineResponseException: The server return 500 HTTP code.
+	at sample.temp.test17(temp.java:401)
+Caused by: com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException: 500  for http://localhost:8080/TestingProject/Orders.jsp
+	at sample.temp.test17(temp.java:401)
+]]></error>
+  </testcase>
+  <testcase name="test1" classname="sample.temp" time="0.031"/>
+  <testcase name="test2" classname="sample.temp" time="0.047"/>
+  <testcase name="test3" classname="sample.temp" time="0.063">
+    <failure message="expected:&lt;[ReStock]&gt; but was:&lt;[Home Page]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[ReStock]> but was:<[Home Page]>
+	at sample.temp.test3(temp.java:86)
+]]></failure>
+  </testcase>
+  <testcase name="test4" classname="sample.temp" time="0.047">
+    <failure message="expected:&lt;[ReStock]&gt; but was:&lt;[Home Page]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[ReStock]> but was:<[Home Page]>
+	at sample.temp.test4(temp.java:109)
+]]></failure>
+  </testcase>
+  <testcase name="test5" classname="sample.temp" time="0.031"/>
+  <testcase name="test6" classname="sample.temp" time="0.047">
+    <failure message="expected:&lt;[ReStock]&gt; but was:&lt;[Home Page]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[ReStock]> but was:<[Home Page]>
+	at sample.temp.test6(temp.java:155)
+]]></failure>
+  </testcase>
+  <testcase name="test7" classname="sample.temp" time="0.031">
+    <failure message="expected:&lt;[ReStock]&gt; but was:&lt;[Home Page]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[ReStock]> but was:<[Home Page]>
+	at sample.temp.test7(temp.java:178)
+]]></failure>
+  </testcase>
+  <testcase name="test8" classname="sample.temp" time="0.031">
+    <failure message="expected:&lt;[ReStock]&gt; but was:&lt;[Home Page]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[ReStock]> but was:<[Home Page]>
+	at sample.temp.test8(temp.java:201)
+]]></failure>
+  </testcase>
+  <testcase name="test9" classname="sample.temp" time="0.047">
+    <failure message="expected:&lt;[ReStock]&gt; but was:&lt;[Home Page]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[ReStock]> but was:<[Home Page]>
+	at sample.temp.test9(temp.java:224)
+]]></failure>
+  </testcase>
+</testsuite>

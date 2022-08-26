@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+Test set: sample.temp
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 8, Errors: 1, Skipped: 0, Time elapsed: 2.656 s <<< FAILURE! - in sample.temp
+sample.temp.test12  Time elapsed: 0.11 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[ReStock]> but was:<[Home Page]>
+	at sample.temp.test12(temp.java:293)
+
+sample.temp.test13  Time elapsed: 0.047 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[ReStock]> but was:<[Home Page]>
+	at sample.temp.test13(temp.java:316)
+
+sample.temp.test17  Time elapsed: 0.047 s  <<< ERROR!
+net.sourceforge.jwebunit.exception.TestingEngineResponseException: The server return 500 HTTP code.
+	at sample.temp.test17(temp.java:401)
+Caused by: com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException: 500  for http://localhost:8080/TestingProject/Orders.jsp
+	at sample.temp.test17(temp.java:401)
+
+sample.temp.test3  Time elapsed: 0.063 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[ReStock]> but was:<[Home Page]>
+	at sample.temp.test3(temp.java:86)
+
+sample.temp.test4  Time elapsed: 0.047 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[ReStock]> but was:<[Home Page]>
+	at sample.temp.test4(temp.java:109)
+
+sample.temp.test6  Time elapsed: 0.047 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[ReStock]> but was:<[Home Page]>
+	at sample.temp.test6(temp.java:155)
+
+sample.temp.test7  Time elapsed: 0.031 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[ReStock]> but was:<[Home Page]>
+	at sample.temp.test7(temp.java:178)
+
+sample.temp.test8  Time elapsed: 0.031 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[ReStock]> but was:<[Home Page]>
+	at sample.temp.test8(temp.java:201)
+
+sample.temp.test9  Time elapsed: 0.047 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[ReStock]> but was:<[Home Page]>
+	at sample.temp.test9(temp.java:224)
+
